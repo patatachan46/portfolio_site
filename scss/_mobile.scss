@@ -1,4 +1,4 @@
-/*===== Widescreens =====*/
+ /*===== Widescreens =====*/
 @include mediaXl {
 
 }
@@ -13,7 +13,7 @@
 	main {
 		align-items: center;
 		text-align: center;
-
+ 
 		.lg-heading {
 			line-height: 1;
 			margin-bottom: 1rem;
@@ -48,6 +48,17 @@
 			height: 150px;
 		}
 	}
+
+	.about-info {
+		grid-template-areas: 
+		'bioimage'
+		'bio'
+		'job1'
+		'job2'
+		'job3';
+
+		grid-template-columns: 1fr;
+	}
 }
 
 /*===== Smartphones =====*/
@@ -56,3 +67,12 @@
 		margin-top: 10vh;
 	}
 }
+
+
+
+
+
+
+
+
+
