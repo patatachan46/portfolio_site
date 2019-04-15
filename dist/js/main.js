@@ -18,9 +18,8 @@ function toggleMenu() {
 		menuBranding.classList.add('show');
 		navItems.forEach(item => item.classList.add('show'));
 
-
-// Set Menu State
-	   showMenu = true;
+　　// Set Menu State
+	  showMenu = true;
 	} else {
 		menuBtn.classList.remove('close');
 		menu.classList.remove('show');
@@ -28,7 +27,8 @@ function toggleMenu() {
 		menuBranding.classList.remove('show');
 		navItems.forEach(item => item.classList.remove('show')); 		
 
-	showMenu = false;
+　　// Set Menu State
+		showMenu = false;
 
 	}
 }
